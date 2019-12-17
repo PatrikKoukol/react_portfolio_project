@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Navbar.module.css'
 import cs from 'classnames'
-import gS from '../../../assets/bootstrap.module.css'
+import gS from '../../assets/bootstrap.module.css'
 import { Link, NavLink } from 'react-router-dom'
 import {HashLink} from 'react-router-hash-link'
 

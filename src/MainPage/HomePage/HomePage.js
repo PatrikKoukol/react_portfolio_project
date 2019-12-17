@@ -1,9 +1,5 @@
 import React from 'react'
 import classes from './HomePage.module.css'
-import Footer from '../../Footer/Footer'
-import Navbar from '../../Navbar/Navbar'
-import barvi from './barvi.png'
-import cnames from 'classnames'
 const homePage = () => {
     
     return (
@@ -63,7 +59,7 @@ const homePage = () => {
             </section>
             <section id="Contact">
             <h1>Contact</h1>
-                Call me pls 123123123
+                
             </section>
             <footer>this is a footer</footer>
         </div>

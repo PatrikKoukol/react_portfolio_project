@@ -1,12 +1,9 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css';
-import logo from './logo.svg';
 import './App.css';
-import Layout from './MainPage/containers/Layout/Layout'
-import HomePage from './MainPage/components/Pages/HomePage/HomePage'
+import Layout from './MainLayout/Layout/Layout'
 function App() {
-  //test test test
   return (
     <BrowserRouter>
       <div className="App">

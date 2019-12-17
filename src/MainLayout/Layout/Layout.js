@@ -1,11 +1,9 @@
 import React from 'react'
 import classes from './Layout.module.css'
-import Header from '../../components/Header/Header'
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
+import Navbar from '../Navbar/Navbar'
 import ContentWrapper from '../ContentWrapper/ContentWrapper'
-import HomePage from '../../components/Pages/HomePage/HomePage'
-import Blog from '../../components/Pages/Blog/Blog'
+import HomePage from '../../MainPage/HomePage/HomePage'
+import Blog from '../../Blog/containers/Blog'
 import {Route} from 'react-router-dom'
 class Layout extends React.Component {
 
