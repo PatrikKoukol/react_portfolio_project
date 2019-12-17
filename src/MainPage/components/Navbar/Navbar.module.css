@@ -1,0 +1,20 @@
+.NavPanel {
+    background-color: #b61717;
+    height: 50px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100;
+}
+
+.NavPanel a, 
+.NavPanel a:hover {
+    
+    margin: 2px;
+    color: #d9dbce;
+    border-right: 1px solid black;
+}
+.NavItemH:hover,
+.NavItemH:active {
+    transition: background-color 0.3s ease;
+    background-color: #7e0000;
+}
